@@ -1,0 +1,356 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: sprachkonstrukt\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-20 13:40+0100\n"
+"PO-Revision-Date: 2011-08-20 13:41+0100\n"
+"Last-Translator: Ruben Deyhle <ruben@sprachkonstrukt.de>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SearchPath-0: ../.\n"
+
+#: ../404.php:13
+msgid "Page not found"
+msgstr "Seite nicht gefunden"
+
+#: ../404.php:14
+msgid "Sorry, the page you requested could not be found."
+msgstr "Die angeforderte Seite konnte leider nicht gefunden werden."
+
+#: ../archive.php:18
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Tagesarchiv: %s"
+
+#: ../archive.php:20
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Monatsarchiv: %s"
+
+#: ../archive.php:22
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Jahresarchiv: %s"
+
+#: ../archive.php:24
+msgid "Blog Archives"
+msgstr "Blogarchiv"
+
+#: ../attachment.php:16
+#, php-format
+msgid "Back to %s"
+msgstr "Zurück zu %s"
+
+#: ../attachment.php:16
+#, php-format
+msgid "&larr; %s"
+msgstr "&larr; %s"
+
+#: ../attachment.php:49
+#: ../loop.php:21
+msgid "Continue reading &rarr;"
+msgstr "Weiterlesen &rarr;"
+
+#: ../attachment.php:51
+#: ../page.php:24
+msgid "Pages:"
+msgstr "Seiten:"
+
+#: ../attachment.php:54
+msgid "&larr; Previous Image"
+msgstr "&larr; Vorheriges Bild"
+
+#: ../attachment.php:55
+msgid "Next Image &rarr;"
+msgstr "Nächstes Bild &rarr;"
+
+#: ../attachment.php:60
+#: ../loop.php:29
+#: ../page.php:31
+#: ../single.php:30
+msgid "Permalink"
+msgstr "Permalink"
+
+#: ../attachment.php:64
+#, php-format
+msgid "Full size is %s pixels"
+msgstr "Volle Größe: &s Pixel"
+
+#: ../attachment.php:67
+msgid "Link to full-size image"
+msgstr "Link zur vollen Auflösung"
+
+#: ../attachment.php:76
+#: ../loop.php:33
+#: ../page.php:33
+#: ../single.php:34
+msgid "0 Comments"
+msgstr "Keine Kommentare"
+
+#: ../attachment.php:76
+#: ../loop.php:33
+#: ../page.php:33
+#: ../single.php:34
+msgid "1 Comment"
+msgstr "1 Kommentar"
+
+#: ../attachment.php:76
+#: ../loop.php:33
+#: ../page.php:33
+#: ../single.php:34
+msgid "% Comments"
+msgstr "% Kommentare"
+
+#: ../attachment.php:77
+#: ../loop.php:34
+#: ../page.php:34
+#: ../single.php:35
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: ../author.php:16
+#, php-format
+msgid "Author Archives: %s"
+msgstr "Autor: %s"
+
+#: ../category.php:17
+#, php-format
+msgid "Category Archives: %s"
+msgstr "Kategorie: %s"
+
+#: ../comments.php:12
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Dieser Eintrag ist Passwortgeschützt."
+
+#: ../comments.php:20
+msgid "Comments"
+msgstr "Kommentare"
+
+#: ../comments.php:37
+msgid "Name"
+msgstr "Name"
+
+#: ../comments.php:38
+msgid "eMail"
+msgstr "eMail"
+
+#: ../comments.php:39
+msgid "Website (optional)"
+msgstr "Website (optional)"
+
+#: ../comments.php:42
+msgid "Comment"
+msgstr "Kommentieren"
+
+#: ../comments.php:43
+#, php-format
+msgid "Answer %s"
+msgstr "%s antworten"
+
+#: ../footer.php:27
+msgid "This website is powered by"
+msgstr "Diese Website läuft mit"
+
+#: ../footer.php:27
+msgid "using the"
+msgstr "und nutzt das"
+
+#: ../footer.php:27
+msgid "Theme"
+msgstr "Theme"
+
+#: ../functions.php:39
+msgid "Primary Navigation"
+msgstr "Hauptnavigation"
+
+#: ../functions.php:40
+msgid "Social Buttons"
+msgstr "Social-Button-Leiste"
+
+#: ../functions.php:52
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: ../functions.php:53
+msgid "The Main Sidebar to the right"
+msgstr "Die Haupt-Sidebar auf der rechten Seite"
+
+#: ../functions.php:61
+msgid "Sprachkonstrukt Archive Widget"
+msgstr "Sprachkonstrukt-Archiv-Widget"
+
+#: ../functions.php:79
+msgid "MacBook"
+msgstr "MacBook"
+
+#: ../functions.php:83
+msgid "Door"
+msgstr "Tür"
+
+#: ../functions.php:87
+msgid "Earth"
+msgstr "Erde"
+
+#: ../functions.php:91
+msgid "Fireworks"
+msgstr "Feuerwerk"
+
+#: ../functions.php:95
+msgid "Planet"
+msgstr "Planet"
+
+#: ../functions.php:99
+msgid "Smoke"
+msgstr "Rauch"
+
+#: ../functions.php:103
+msgid "Splatter"
+msgstr "Spritzer"
+
+#: ../functions.php:107
+msgid "Trees"
+msgstr "Bäume"
+
+#: ../functions.php:132
+msgid "Home"
+msgstr "Home"
+
+#: ../functions.php:145
+msgid "RSS"
+msgstr "RSS"
+
+#: ../functions.php:166
+msgid "Your comment is awaiting moderation."
+msgstr "Dein Kommentar wird überprüft und dann veröffentlicht."
+
+#: ../functions.php:192
+msgid "Trackback"
+msgstr "Trackback"
+
+#: ../functions.php:250
+msgid "Theme Info"
+msgstr "Theme Info"
+
+#: ../functions.php:256
+msgid "Sprachkonstrukt Theme Info"
+msgstr "Sprachkonstrukt Theme Info"
+
+#: ../functions.php:257
+msgid "Questions, Errors, Feature Requests?"
+msgstr "Fragen, Fehler, Idenn?"
+
+#: ../functions.php:258
+msgid "&rarr; See the "
+msgstr "&rarr; Schau auf das"
+
+#: ../functions.php:258
+msgid "sprachkonstrukt2 blog"
+msgstr "sprachkonstrukt2-Blog"
+
+#: ../functions.php:258
+msgid "or ask me on <a href=\"http://twitter.com/iRuben\">Twitter</a>."
+msgstr "oder frag mich auf <a href=\"http://twitter.com/iRuben\">Twitter</a>."
+
+#: ../functions.php:260
+msgid "Happy with your Theme?"
+msgstr "Glücklich mit deinem Theme?"
+
+#: ../functions.php:261
+msgid "You should donate a few dollars, so I can buy a beer and work on future updates!"
+msgstr "Du solltest ein paar Euro spenden, damit ich mir Bier kaufen und an zukünftigen Updates arbeiten kann!"
+
+#: ../functions.php:261
+msgid "Just click the following button:"
+msgstr "Klicke einfach auf den folgenden Button"
+
+#: ../functions.php:296
+msgid "Archives"
+msgstr "Archiv"
+
+#: ../header.php:34
+#, php-format
+msgid "Page %s"
+msgstr "Seite %s"
+
+#: ../loop.php:24
+#: ../single.php:23
+msgid "Pages"
+msgstr "Seiten"
+
+#: ../loop.php:32
+#: ../page.php:32
+#: ../sidebar.php:20
+#: ../single.php:33
+msgid "Tags"
+msgstr "Tags"
+
+#: ../loop.php:43
+msgid "Previous posts"
+msgstr "Vorherige Einträge"
+
+#: ../loop.php:44
+msgid "Later posts"
+msgstr "Spätere Einträge"
+
+#: ../loop.php:49
+#: ../search.php:20
+msgid "Not Found"
+msgstr "Nichts gefunden"
+
+#: ../loop.php:50
+#: ../search.php:21
+msgid "No results were found, sorry."
+msgstr "Es wurde nichts gefunden."
+
+#: ../search.php:16
+#, php-format
+msgid "Search results for: %s"
+msgstr "Suchergebnisse für: %s"
+
+#: ../searchform.php:14
+msgid "Search Term"
+msgstr "Suchbegriff"
+
+#: ../searchform.php:15
+msgid "Search"
+msgstr "Suche"
+
+#: ../sidebar.php:28
+msgid "Meta"
+msgstr "Meta"
+
+#: ../tag.php:17
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "Tag: %s"
+
+#~ msgid "Theme Options"
+#~ msgstr "Themeeinstellungen"
+
+#~ msgid "You have to be"
+#~ msgstr "Du musst"
+
+#~ msgid "logged in"
+#~ msgstr "eingeloggt"
+
+#~ msgid "to comment"
+#~ msgstr "seint, um zu kommentieren."
+
+#~ msgid "Logged in as"
+#~ msgstr "Angemeldet als"
+
+#~ msgid "Logout"
+#~ msgstr "Abmelden"
+
+#~ msgid "Send"
+#~ msgstr "Absenden"
+
+#~ msgid "Save Changes"
+#~ msgstr "Änderungen speichern"

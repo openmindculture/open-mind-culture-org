@@ -1,0 +1,249 @@
+
+
+@import url('reset.css');
+
+
+html .mceContentBody {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 100.01%;
+	margin: 0;
+	
+	color: #333;
+	float: left;
+	font-size: 14px;
+	line-height: 1.8em;
+	margin-left: 100px;
+	padding: 25px;
+	padding-top: 30px;
+	width: 550px;
+}
+
+/* basic tag styles and classes
+-------------------------------------------------------------- */
+
+a {
+	color: #628a14;
+	text-decoration: none;
+}
+
+a:hover { 
+	color: #405020;
+	text-decoration: underline;
+}
+
+code { 
+	font: .8em/inherit "Monaco", monospace; 
+}
+
+article,
+footer {
+	display: block;
+}
+
+address,
+article,
+dd,
+p,
+pre {
+	margin-bottom: 1.2em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dt {
+	color: #000;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	line-height: 1.3em;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a,
+dt a {
+	color: #000;
+}
+
+h1 {
+	font-size: 2em;
+	
+}
+
+h2 {
+	font-size: 1.8em;
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+h4,
+h5,
+h6,
+dt {
+	font-size: 1.3em;
+}
+
+em {
+	font-style:italic;
+}
+
+small, .small {
+	font-size: .8em;
+}
+
+big, .big {
+	font-size: 1.2em;
+}
+
+acronym, abbr, span.caps {
+	cursor: help;
+}
+
+blockquote {
+	border-left: 3px solid #666;
+	color: #666;
+	margin: 0 0 1em 2em;
+	padding-left: 1em;
+}
+
+del,
+s,
+strike {
+	text-decoration: line-through;
+}
+
+hr {
+	border: 1px solid #999;
+}
+
+textarea {
+	width: 97%;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+}
+
+tbody {
+	display: table-row-group;
+}
+
+
+td,
+th {
+	padding: .5em 1em;
+	text-align: left;
+}
+
+tr.alternate {
+	background-color: #ebf1e3;
+}
+
+strong {
+	font-weight:bold;
+}
+
+sub, 
+sup { font: .7em/0 Verdana, Arial, sans-serif;}
+
+sub { vertical-align: sub; }
+sup { vertical-align:super; }
+
+
+ins {
+	background-color: #ebf1e3;
+	text-decoration: none;
+}
+
+pre {
+	background-color: #ebf1e3;
+	padding: 1em;
+}
+
+q::before {
+	content: 'Ò';
+}
+
+q::after {
+	content: 'Ó';
+}
+ 
+html[lang|="de"] q::before {
+	content: 'È';
+}
+
+html[lang|="de"] q::after {
+	content: 'Ç';
+}
+
+html[lang|="fr"] q::before {
+	content: 'Ç';
+}
+
+html[lang|="fr"] q::after {
+	content: 'È';
+}
+
+var {
+	font-family: Times, "Times New Roman", serif;
+	font-style: italic;
+}
+
+.wp-caption	{ 
+	margin: 10px;
+	max-width: 525px !important;
+	overflow: hidden;
+	text-align: center; 
+	font-size: .8em;
+}
+
+.aligncenter { 
+	display: block; 
+	margin: 10px auto; 
+
+}
+
+.alignleft { 
+	float: left; 
+	margin: 0 20px 5px 0; 
+}
+
+.alignright	{ 
+	float: right; 
+	margin: 0 0 5px 20px; 
+}
+
+
+img {
+	max-width: 100%;
+	height: auto;
+	padding: 0;
+}
+
+img.centered, img.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.alignright {
+	display: inline;
+	margin: 0 0 2px 7px;
+	padding: 4px;
+}
+
+img.alignleft {
+	display: inline;
+	margin: 0 7px 2px 0;
+	padding: 4px;
+}
