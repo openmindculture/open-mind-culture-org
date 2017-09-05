@@ -6,11 +6,13 @@
  * @subpackage	Sprachkonstrukt2 Theme
  * @author     	Ruben Deyhle <ruben@sprachkonstrukt.de>
  * @url		   	http://sprachkonstrukt2.deyhle-webdesign.com
- */ 
+ */
 
 /* disable unused emoji styles */
 remove_action( 'wp_head', 'print_emoji_detection_script', 7 );
 remove_action( 'wp_print_styles', 'print_emoji_styles' );
+/* remove the most obvious version information */
+remove_action('wp_head', 'wp_generator');
 
 /**
  * set width for content
@@ -41,24 +43,24 @@ function sprachkonstrukt_setup() {
 		'primary' => __( 'Primary Navigation', 'sprachkonstrukt' ),
 		'social' => __( 'Social Buttons', 'sprachkonstrukt' ),
 	) );
-	
-	
+
+
 	// adding Thumbnail support
-	add_theme_support( 'post-thumbnails' ); 
-	
-	
-	
+	add_theme_support( 'post-thumbnails' );
+
+
+
 	// register main sidebar
 	register_sidebar(array(
 		'id'			=> 'main_sidebar',
 		'name' 			=> __('Sidebar', 'sprachkonstrukt'),
 		'description'	=> __('The Main Sidebar to the right', 'sprachkonstrukt'),
-		'before_widget' => '<li id="%1$s" class="widget %2$s">', 
-		'after_widget' 	=> '</li>', 
-		'before_title' 	=> '<h2 class="widgettitle">', 
-		'after_title' 	=> '</h2>', 
+		'before_widget' => '<li id="%1$s" class="widget %2$s">',
+		'after_widget' 	=> '</li>',
+		'before_title' 	=> '<h2 class="widgettitle">',
+		'after_title' 	=> '</h2>',
 	));
-	
+
 	// register widget for beautiful archive
 	wp_register_sidebar_widget(0, __('Sprachkonstrukt Archive Widget', 'sprachkonstrukt'), 'sprachkonstrukt_archive_widget');
 
@@ -74,7 +76,7 @@ function sprachkonstrukt_setup() {
 
 	// Default custom headers
 	register_default_headers( array (
-	
+
 		'default' => array (
 			'url'			=> '%s/images/headers/default.jpg',
 			'thumbnail_url' => '%s/images/headers/default-thumbnail.jpg',
@@ -109,7 +111,7 @@ function sprachkonstrukt_setup() {
 			'description' 	=> __( 'Trees', 'sprachkonstrukt' ))
 
 	) );
-	
+
 	// CSS in WYSIWYG Editor
 	add_editor_style('editor.css');
 
@@ -119,7 +121,7 @@ function sprachkonstrukt_setup() {
 
 	add_theme_support('automatic-feed-links');
 
-	
+
 }
 endif;
 
@@ -133,7 +135,7 @@ function sprachkonstrukt_menu() {
 	echo '<nav><ul>
 			<li><a href="'.get_bloginfo('url').'">'.__('Home', 'sprachkonstrukt').'</a></li>';
 	wp_list_pages('title_li=');
-	echo '</ul></nav>';			
+	echo '</ul></nav>';
 }
 endif;
 
@@ -145,14 +147,14 @@ function sprachkonstrukt_socialbuttons() {
 
 	echo '<ul class="socialbuttons">
 			<li><a href="'.get_bloginfo('rss2_url').'" title="'.__('RSS', 'sprachkonstrukt').'">'.__('RSS', 'sprachkonstrukt').'</a></li>';
-	echo '</ul>';			
+	echo '</ul>';
 }
 endif;
 
 
 
-/** 
- * outputs comments (and no pings/trackbacks) 
+/**
+ * outputs comments (and no pings/trackbacks)
  */
 if ( ! function_exists( 'sprachkonstrukt_comment' ) ):
 function sprachkonstrukt_comment($comment, $args, $depth) {
@@ -167,14 +169,14 @@ function sprachkonstrukt_comment($comment, $args, $depth) {
 				<?php if ($comment->comment_approved == '0') : ?>
         			<br /> <em><?php _e('Your comment is awaiting moderation.', 'sprachkonstrukt') ?></em>
       			<?php endif; ?>
-      			
+
 				<div class="comment-meta commentmetadata"><a href="<?php echo htmlspecialchars( get_comment_link( $comment->comment_ID ) ) ?>"><?php comment_date();?>, <?php comment_time(); ?></a>
 					<div class="reply">
          				<?php comment_reply_link(array_merge( $args, array('depth' => $depth, 'max_depth' => $args['max_depth']))) ?>
       				</div>
       			</div>
-				
-      			
+
+
       		</div>
      	</div>
 <?php
@@ -182,8 +184,8 @@ function sprachkonstrukt_comment($comment, $args, $depth) {
 endif;
 
 
-/** 
- * outputs pings/trackbacks (and no comments) 
+/**
+ * outputs pings/trackbacks (and no comments)
  */
 if ( ! function_exists( 'sprachkonstrukt_ping' ) ):
 function sprachkonstrukt_ping($comment, $args, $depth) {
@@ -193,9 +195,9 @@ function sprachkonstrukt_ping($comment, $args, $depth) {
      		<span class="comment-author vcard comment-meta commentmetadata">
       			<a href="<?php echo htmlspecialchars( get_comment_link( $comment->comment_ID ) ) ?>"><?php _e('Trackback', 'sprachkonstrukt'); ?>:</a> <?php echo(get_comment_author_link()); ?>
       			</span>
-				
-      			
-      		
+
+
+
      	</div>
 <?php
         }
@@ -226,7 +228,7 @@ width: <?php echo HEADER_IMAGE_WIDTH; ?>px;
 	padding-bottom: 10px;
 	text-transform: lowercase;
 	color: #<?php echo HEADER_TEXT_COLOR; ?> !important;
-	font-size: 64px;	
+	font-size: 64px;
 	text-decoration: none !important;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 300;
@@ -247,18 +249,18 @@ endif;
 /**
  * The Theme Settings Page
  */
- 
+
 function sprachkonstrukt_add_options_page() {
 	add_theme_page('Sprachkonstrukt Theme Info', __('Theme Info', 'sprachkonstrukt'), 'manage_options', 'sprachkonstrukt_theme_options', 'sprachkonstrukt_options_do_page');
 }
- 
+
 function sprachkonstrukt_options_do_page() {
 	?>
 	<div class="wrap">
 		<h2><?php _e("Sprachkonstrukt Theme Info", 'sprachkonstrukt'); ?></h2>
 		<h3><?php _e('Questions, Errors, Feature Requests?', 'sprachkonstrukt'); ?></h3>
 		<p><?php _e('&rarr; See the ', 'sprachkonstrukt'); ?> <a href="http://sprachkonstrukt2.deyhle-webdesign.com"><?php _e('sprachkonstrukt2 blog', 'sprachkonstrukt'); ?></a> <?php _e('or ask me on <a href="http://twitter.com/iRuben">Twitter</a>.', 'sprachkonstrukt'); ?></p>
-		
+
 		<h3><?php _e('Happy with your Theme?', 'sprachkonstrukt'); ?></h3>
 		<p><?php _e("You should donate a few dollars, so I can buy a beer and work on future updates!", 'sprachkonstrukt'); ?><br /><?php _e('Just click the following button:', 'sprachkonstrukt'); ?></p>
 		<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -267,9 +269,9 @@ function sprachkonstrukt_options_do_page() {
 <input type="image" src="https://www.paypalobjects.com/WEBSCR-640-20110306-1/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/WEBSCR-640-20110306-1/de_DE/i/scr/pixel.gif" width="1" height="1">
 </form>
-		
+
 	</div>
-	<?php	
+	<?php
 }
 
 
@@ -278,41 +280,41 @@ function sprachkonstrukt_options_do_page() {
 /**
  * The included Archive Widget
  */
- 
+
 if ( ! function_exists( 'sprachkonstrukt_archive_widget' ) ):
 function sprachkonstrukt_archive_widget() {
 
 	global $wpdb; // Wordpress Database
-	
+
 	$years = $wpdb->get_results( "SELECT distinct year(post_date) AS year, count(ID) as posts FROM $wpdb->posts WHERE post_type = 'post' AND post_status = 'publish' GROUP BY year(post_date) ORDER BY post_date DESC" );
-	
+
 	if ( empty( $years ) ) {
 		return; // empty archive
 	}
-	
+
 	$months_short = apply_filters( 'smarter_archives_months', array( '', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec' ) );
 	$months_short = apply_filters( 'smarter_archives_months', array( '', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12' ) );
-	
+
 	?>
 		<li id="better-archives" class="widget widget_better-archives">
 			<h2 class="widgettitle"><?php _e( 'Archives', 'sprachkonstrukt' ); ?></h2>
 			<ul class="better-archives">
 	<?php foreach ( $years as $year ) {
 		print '<li><a class="year-link" href="' . get_year_link( $year->year ) . '">' . $year->year . '</a> ';
-		
+
 		for ( $month = 1; $month <= 12; $month++ ) {
 			if ( (int) $wpdb->get_var( "SELECT COUNT(ID) FROM $wpdb->posts WHERE post_type = 'post' AND post_status = 'publish' AND year(post_date) = '$year->year' AND month(post_date) = '$month'" ) > 0 ) {
 				print '<a class="month-link" href="' . get_month_link( $year->year, $month ) . '">' . $months_short[$month] . '</a>';
 			}
-			
+
 			if ( $month != 12 ) {
 				print ' ';
 			}
 		}
-		
+
 		print '</li>';
 	}
-	
+
 	print '</ul></li>';
 
 }
