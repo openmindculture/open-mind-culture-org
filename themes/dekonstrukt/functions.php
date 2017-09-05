@@ -8,7 +8,9 @@
  * @url		   	http://sprachkonstrukt2.deyhle-webdesign.com
  */ 
 
-
+/* disable unused emoji styles */
+remove_action( 'wp_head', 'print_emoji_detection_script', 7 );
+remove_action( 'wp_print_styles', 'print_emoji_styles' );
 
 /**
  * set width for content
