@@ -57,7 +57,22 @@
 <p>
 <a href="https://www.aerzte-ohne-grenzen.de/spenden/jetzt-online-spenden/einmalig-spenden/index.html"><img alt="Spenden für Ärzte ohne Grenzen" src="http://www.aerzte-ohne-grenzen.de/_media/bilder/banner-haupt--300x250-fallback.jpg" id="Ärzte ohne Grenzen - Onlinebanner Wir sind da" class="size-full aligncenter" /></a></p>
 <!-- /custom ad doctors without borders -->
-</aside>
+
+<!-- Piwik analytics tracking -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//piwik.open-mind-culture.org/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Piwik analytics tracking Code -->
 
 <!-- google analytics tracking -->
 <script>
@@ -68,6 +83,8 @@
   ga('create', 'UA-105786569-1', 'auto');
   ga('send', 'pageview');
 </script>
+
+</aside>
 
 </body>
 </html>
