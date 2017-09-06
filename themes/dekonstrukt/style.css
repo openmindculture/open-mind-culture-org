@@ -46,7 +46,7 @@ pre {
 	margin-bottom: 0.4em;
 }
 
-article {
+article, #content > p {
 	margin-left: 2em;
 }
 
