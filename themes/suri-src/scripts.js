@@ -223,4 +223,31 @@
             elemsAfter[i].className = elemsAfter[i].className.replace( replaceStra, '' );
         }
     } ) ();
+    ( function() {
+        window._paq = window._paq || [];
+        window._paq.push(['trackPageView']);
+        window._paq.push(['enableLinkTracking']);
+        (function() {
+            var u="//piwik.open-mind-culture.org/";
+            window._paq.push(['setTrackerUrl', u+'js/']);
+            window._paq.push(['setSiteId', '1']);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('body')[0];
+            g.type='text/javascript'; g.src=u+'js/'; s.parentNode.insertBefore(g,s);
+            d.head.appendChild(g);
+        })();
+        window._paq.push(['trackPageView']);
+    }) ();
+    ( function() {
+        window.GoogleAnalyticsObject = 'ga';
+        window.ga = window.ga || function(){(window.ga.q = window.ga.q || []).push(arguments)};
+        window.ga.l =1 * new Date();
+        var d=document, a=d.createElement('script'), s=d.getElementsByTagName('body')[0];
+        a.type='text/javascript';
+        a.src=u+'//www.google-analytics.com/analytics.js';
+        a.async=true;
+        s.parentNode.insertBefore(a,s);
+        d.head.appendChild(a);
+        ga('create','UA-105786569-1','auto');
+        ga('send','pageview');
+    })();
 } ) ();

@@ -13,9 +13,5 @@
       "title":""
     }
   },
-  "footer-widget-1":{
-    "customHtml":{
-      "file":"./footerAnalytics.htm"
-    }
-  }
+  "footer-widget-1":{}
 }
