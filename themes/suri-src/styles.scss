@@ -17,7 +17,19 @@ Suri is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, I
 Underscores is distributed under the terms of the GNU GPL v2 or later.
 */
 
-@import url('https://fonts.googleapis.com/css?family=Nothing+You+Could+Do');
+/* @import url('https://fonts.googleapis.com/css?family=Nothing+You+Could+Do'); */
+
+@font-face {
+	font-family: 'Nothing You Could Do';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Nothing You Could Do'), local('NothingYouCouldDo'),
+	url(https://fonts.gstatic.com/s/nothingyoucoulddo/v6/jpk1K3jbJoyoK0XKaSyQAW3tIVbDRfcAbwPiWONb82U.woff2) format('woff2'),
+	url(https://fonts.gstatic.com/s/nothingyoucoulddo/v6/jpk1K3jbJoyoK0XKaSyQAZsYoLsUhJo8DEpooYVMXYU.woff) format('woff'),
+	url(https://fonts.gstatic.com/s/nothingyoucoulddo/v6/jpk1K3jbJoyoK0XKaSyQATQ_Mc_CI9I9rz7xtaEMUMz3rGVtsTkPsbDajuO5ueQw.ttf) format('truetype'),
+	url(https://fonts.gstatic.com/l/font?kit=jpk1K3jbJoyoK0XKaSyQARAk6TjjYmw_HRMhoQrn_pA&skey=772542671f40e9f1&v=v6#NothingYouCouldDo) format('svg');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
 
 /**
  * Table of Contents
