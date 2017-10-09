@@ -243,7 +243,7 @@
         window.ga.l =1 * new Date();
         var d=document, a=d.createElement('script'), s=d.getElementsByTagName('body')[0];
         a.type='text/javascript';
-        a.src=u+'//www.google-analytics.com/analytics.js';
+        a.src='//www.google-analytics.com/analytics.js';
         a.async=true;
         s.parentNode.insertBefore(a,s);
         d.head.appendChild(a);
