@@ -633,6 +633,7 @@ a:focus > img {
 .pagination {
 	clear: both;
 	margin: 0 auto 26px;
+	text-align: center;
 }
 
 .page-numbers {
@@ -997,7 +998,7 @@ p.site-title {
 p.site-title a,
 .entry-title a {
 	color: #333;
-	font-size: 2em;
+	font-size: 1.25em;
 }
 
 .entry-title a:hover,
@@ -1582,6 +1583,12 @@ video {
 	.branding-wrapper .custom-logo-link {
 		display: inline-block;
 		vertical-align: middle;
+	}
+
+	.branding-wrapper .title-area a {
+		display: block;
+		height: 50px;
+		width: 500px;
 	}
 
 	.branding-wrapper .custom-logo-link {
