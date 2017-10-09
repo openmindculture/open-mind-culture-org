@@ -1,0 +1,21 @@
+{
+  "sidebar": {
+    "tagCloud":{
+      "taxonomy":"tags"
+    },
+    "customHtml":{
+      "file":"./googleSkyscraperAds.htm"
+    }
+
+  },
+  "header":{
+    "search":{
+      "title":""
+    }
+  },
+  "footer-widget-1":{
+    "customHtml":{
+      "file":"./footerAnalytics.htm"
+    }
+  }
+}
