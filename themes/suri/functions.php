@@ -184,7 +184,7 @@ class Suri_Init {
 		 *
 		 * @since 0.0.3
 		 */
-		$suri_theme_support = apply_filters( 'suri_theme_support', array( 'schema', 'thumb', 'genericons' ) );
+		$suri_theme_support = apply_filters( 'suri_theme_support', array( 'schema', 'thumb') );
 		foreach ( $suri_theme_support as $support ) {
 			// Custom addon support for suri theme.
 			add_theme_support( "suri_{$support}" );
@@ -382,7 +382,6 @@ class Suri_Init {
 		$addon_files = array(
 			'thumb'        => array( 'thumb', 'set-thumbnail', 'delete-thumbnail' ),
 			'schema'       => array( 'schema' ),
-			'genericons'   => array( 'fonticon-data', 'genericons' ),
 		);
 		foreach ( $addon_files as $feature => $files ) {
 			foreach ( $files as $file ) {
