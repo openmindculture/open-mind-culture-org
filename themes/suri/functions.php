@@ -12,6 +12,20 @@
  * @since 0.0.1
  */
 
+/* MOD use cookieless domain for youtube embed */
+function gdgts_youtube_nocookie_domain( $original, $url, $attr, $post_ID ) {
+	if ( preg_match('#https?://(www\.)?youtu#i', $url) ) {
+		return preg_replace(
+			'#src=(["\'])(https?:)?//(www\.)?youtube\.com#i',
+			'src=$1$2//$3youtube-nocookie.com',
+			$html
+		);
+	}
+	return $html;
+}
+add_filter( 'embed_oembed_html', 'gdgts_youtube_nocookie_domain', 10, 4);
+/* MOD use cookieless domain for youtube embed END */
+
 /* MOD disable emoji styles and functions */
 function disable_wp_emojicons() {
 
@@ -327,8 +341,8 @@ class Suri_Init {
 	public static function resource_hints( $urls, $relation_type ) {
 		if ( wp_style_is( 'suri-fonts', 'queue' ) && 'preconnect' === $relation_type ) {
 			$urls[] = array(
-				'href' => 'https://fonts.gstatic.com',
-				'crossorigin',
+				/*'href' => 'https://fonts.gstatic.com',
+				'crossorigin',*/
 			);
 		}
 
@@ -343,7 +357,7 @@ class Suri_Init {
 	public static function enqueue_scripts() {
 		wp_enqueue_style( 'suri-style', get_stylesheet_uri() );
 		wp_enqueue_script( 'suri-scripts', get_template_directory_uri() . '/resources/js/scripts.js', array(), '1.0.0', true );
-
+/*
 		if ( 1 !== get_theme_mod( 'suri_no_web_fonts', suri_get_theme_defaults( 'suri_no_web_fonts' ) ) ) :
 			wp_enqueue_style( 'suri-fonts', esc_url( self::google_font_url() ) );
 		endif;
@@ -351,6 +365,7 @@ class Suri_Init {
 		if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) :
 			wp_enqueue_script( 'comment-reply' );
 		endif;
+*/
 	}
 
 	/**
