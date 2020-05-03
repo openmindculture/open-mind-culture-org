@@ -32,7 +32,17 @@ Thumbs.db
 .sass-cache
 *.css.map
 
-# build and log files #i
+# build and log files
 node_modules
 yarn-error.log
 npm-debug.log
+
+.svn
+
+node_modules
+# ignore local wordpress core, database, and default/example plugins
+wordpress
+data
+akismet
+hello.php
+index.php
