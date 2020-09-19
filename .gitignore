@@ -32,6 +32,10 @@ Thumbs.db
 .sass-cache
 *.css.map
 
+# Docker and config
+docker-compose.override.yml
+.env
+
 # build and log files
 node_modules
 yarn-error.log
