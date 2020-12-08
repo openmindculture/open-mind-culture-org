@@ -7,6 +7,12 @@ Supports the older plugins that extend this screen.
 
 Version 1.6 | By WordPress Contributors
 
+## Compress JPEG & PNG images
+
+Speed up your website. Optimize your JPEG and PNG images automatically with TinyPNG.
+
+Version 3.2.1 | By TinyPNG
+
 ## HTTP headers to improve web site security
 
 Use your HTTP header to improve security of your web site
@@ -54,6 +60,12 @@ Version 4.6.5 | By Jan-Peter Lambeck & 3UU
 Site Kit is a one-stop solution for WordPress users to use everything Google has to offer to make them successful on the web.
 
 Version 1.22.0 | By Google
+
+## W3 Total Cache
+
+The highest rated and most complete WordPress performance plugin. Dramatically improve the speed and user experience of your site. Add browser, page, object and database caching as well as minify and content delivery network (CDN) to WordPress.
+
+Version 0.15.2 | By BoldGrid
 
 ## Webmention
 
