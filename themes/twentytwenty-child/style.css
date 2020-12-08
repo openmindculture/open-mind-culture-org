@@ -1,11 +1,11 @@
 /*
  Theme Name:   Twenty Twenty Child OMC
- Theme URI:    https://github.com/openmindculture/open-mind-culture-org/tree/master/themes/twentytwenty-child 
+ Theme URI:    https://github.com/openmindculture/open-mind-culture-org/tree/master/themes/twentytwenty-child
  Description:  Twenty Twenty Child Theme for Open Mind Culture
  Author:       Ingo Steinke
  Author URI:   https://www.ingo-steinke.de
  Template:     twentytwenty
- Version:      1.0.2
+ Version:      1.0.3
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         responsive-layout, accessibility-ready
@@ -15,79 +15,88 @@
 @import url('https://fonts.googleapis.com/css?family=Nothing+You+Could+Do');
 
 body {
-	background: #fff;
-}
-html,body, .entry-content, .entry-content h2, .widget_text p { 
-	font-family: 'Nothing You Could Do', sans-serif;
+  background: #fff;
 }
 
-h1, h2 {
-	font-size: 2em;
+h1,
+h2 {
+  font-size: 2em;
 }
 
-a, a:link {
-	color: #0067ac;
+html,
+body,
+.entry-content,
+.entry-content h2,
+.widget_text p {
+  font-family: 'Nothing You Could Do', sans-serif;
+}
+
+a,
+a:link {
+  color: #0067ac;
 }
 
 @media screen and (min-width: 1000px) {
-	.header-inner {
-		justify-content: space-around;
-	}
+  .header-inner {
+    justify-content: space-around;
+  }
 }
 
 #site-header {
-	background: linear-gradient(#fff, #ddd);
+  background: linear-gradient(#fff, #ddd);
 }
 
 #site-content {
-    background: #fff url(spiralblock.png) repeat-y left top;
-    box-shadow: 36px 25px 20px -27px rgba(0,0,0,0.75);
-    margin: 0 auto 26px;
-    max-width: 800px;
-    padding-left: 8em;
+  background: #fff url(spiralblock.png) repeat-y left top;
+  box-shadow: 36px 25px 20px -27px rgba(0, 0, 0, 0.75);
+  margin: 0 auto 26px;
+  max-width: 800px;
+  padding-left: 8em;
 }
 
 h2.entry-title {
-	text-align: left;
-    margin-left: -1em;
-    margin-right: -1em;
+  text-align: left;
+  margin-left: -1em;
+  margin-right: -1em;
 }
 
-@media screen and (max-width:800px) {
-	#site-content {
-		background-position: -50px 0;
-		padding-left: 2em;
-		max-width: 100%;
-		max-width: 100vh;
-	}
-	figure.wp-caption {
-		margin-left: 1em;
-	}
-	h2.entry-title {
-		margin-left: 0;
-		margin-right: 0;
-	}
+@media screen and (max-width: 800px) {
+  #site-content {
+    background-position: -50px 0;
+    padding-left: 2em;
+    max-width: 100%;
+    max-width: 100vh;
+  }
+
+  figure.wp-caption {
+    margin-left: 1em;
+  }
+
+  h2.entry-title {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 
 #site-content article:first-child {
-	border-top: solid 1px #eee;
+  border-top: solid 1px #eee;
 }
 
 #site-content img {
-	max-width: 455px;
-	height: auto;
+  max-width: 455px;
+  height: auto;
 }
 
-@media screen and (max-width:455px) {
-	#site-content img {
-		max-width: 100%;
-	}
+@media screen and (max-width: 455px) {
+  #site-content img {
+    max-width: 100%;
+  }
 }
 
 figure.featured-media {
-	display: none;
+  display: none;
 }
 
 .singular .entry-header {
-    padding-bottom: 0;
+  padding-bottom: 0;
 }

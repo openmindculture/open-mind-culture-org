@@ -3,7 +3,12 @@
   "version": "2.0.0",
   "description": "www.open-mind-culture.org",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "stylelint": "^13.8.0",
+    "stylelint-a11y": "^1.2.3",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-config-wordpress": "^17.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/openmindculture/open-mind-culture-org.git"

@@ -3,7 +3,13 @@
 This is a small blog for the main purpose to keep up with WordPress changes,
 as I have been using WordPress from the very beginning but rarely used it professionally anymore.
 
-Changelog:
+## Linter
+
+```
+npx stylelint "**/*.css" --fix
+```
+
+## Changelog
 
 - 2020 Custom styles are finally deployed as a child theme (twentytwenty-child)
 The child theme will be mounted into a local WordPress running on [localhost:8077](http://localhost:8077)
