@@ -9,6 +9,10 @@ as I have been using WordPress from the very beginning but rarely used it profes
 npx stylelint "**/*.css" --fix
 ```
 
+## Plugins
+
+[plugins/plugins.md](./plugins/plugins.md)
+
 ## Changelog
 
 - 2020 Custom styles are finally deployed as a child theme (twentytwenty-child)
