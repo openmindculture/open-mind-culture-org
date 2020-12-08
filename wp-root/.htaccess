@@ -1,10 +1,7 @@
-# Security
-<FilesMatch "^.*(error_log|wp-config\.php|php.ini|\.[hH][tT][aApP].*)$">
-Order deny,allow
-Deny from all
-</FilesMatch>
-
 # BEGIN WordPress
+# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteBase /
@@ -56,4 +53,8 @@ Header set X-Frame-Options "SAMEORIGIN"
 Header set X-Content-Type-Options  "nosniff"
 Header set X-Xss-Protection "1; mode=block"
 Header set Referrer-Policy "no-referrer-when-downgrade"
-Header set Content-Security-Policy  "default-src 'self' 'unsafe-inline' *.open-mind-culture.org pagead2.googlesyndication.com www.google-analytics.com *.youtube.com *.youtu.be player.vimeo.com *.spotify.com googleads.g.doubleclick.net; style-src 'self' 'unsafe-inline' data: fonts.googleapis.com; font-src 'self' 'unsafe-inline' data: fonts.gstatic.com; img-src 'self' data: *.open-mind-culture.org www.google-analytics.com;"
+Header set Strict-Transport-Security "max-age=31536000; preload"
+
+# remove unnecessary information
+Header unset X-Powered-By
+Header unset Server

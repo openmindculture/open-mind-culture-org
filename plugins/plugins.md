@@ -7,6 +7,12 @@ Supports the older plugins that extend this screen.
 
 Version 1.6 | By WordPress Contributors
 
+## HTTP headers to improve web site security
+
+Use your HTTP header to improve security of your web site
+
+Version 2.5.6 | By Carl Conrad
+
 ## IndieWeb	
 
 Interested in connecting your WordPress site to the IndieWeb?
