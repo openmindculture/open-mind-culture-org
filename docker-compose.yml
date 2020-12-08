@@ -19,7 +19,7 @@ services:
     image: 'wordpress:latest'
     # image: 'wordpress:4.8-php7.0-apache'
     ports:
-      - '80:80'
+      - '8077:80'
     environment:
       WORDPRESS_DB_HOST: 'db:3306'
       WORDPRESS_DB_USER: wordpress_user
@@ -27,4 +27,5 @@ services:
       WORDPRESS_DB_NAME: wordpress_db
     volumes:
       - "./wordpress:/var/www/html"
+      - "./themes/twentytwenty-child:/var/www/html/wp-content/themes/twentytwenty-child"
 
