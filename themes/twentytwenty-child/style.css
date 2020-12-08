@@ -5,7 +5,7 @@
  Author:       Ingo Steinke
  Author URI:   https://www.ingo-steinke.de
  Template:     twentytwenty
- Version:      1.0.1
+ Version:      1.0.2
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         responsive-layout, accessibility-ready
@@ -29,8 +29,14 @@ a, a:link {
 	color: #0067ac;
 }
 
+@media screen and (min-width: 1000px) {
+	.header-inner {
+		justify-content: space-around;
+	}
+}
+
 #site-header {
-	padding-left: 10em;
+	background: linear-gradient(#fff, #ddd);
 }
 
 #site-content {
@@ -48,9 +54,6 @@ h2.entry-title {
 }
 
 @media screen and (max-width:800px) {
-	#site-header {
-		padding-left: 0;
-	}
 	#site-content {
 		background-position: -50px 0;
 		padding-left: 2em;
