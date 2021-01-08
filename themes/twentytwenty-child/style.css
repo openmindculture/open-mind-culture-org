@@ -5,30 +5,39 @@
  Author:       Ingo Steinke
  Author URI:   https://www.ingo-steinke.de
  Template:     twentytwenty
- Version:      1.0.3
+ Version:      1.0.7
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         responsive-layout, accessibility-ready
  Text Domain:  twentytwentychildomc
 */
 
-@import url('https://fonts.googleapis.com/css?family=Nothing+You+Could+Do');
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&family=Indie+Flower&display=swap');
 
 body {
   background: #fff;
 }
 
 h1,
-h2 {
+h2,
+h2.entry-title,
+.entry-content h2 {
   font-size: 2em;
+  font-family: 'Nothing You Could Do', Helvetica, sans-serif;
+  font-weight: 400;
 }
 
 html,
 body,
 .entry-content,
-.entry-content h2,
 .widget_text p {
-  font-family: 'Nothing You Could Do', sans-serif;
+  font-family: 'Indie Flower', Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+b,
+strong {
+  font-weight: 700;
 }
 
 a,
@@ -87,9 +96,9 @@ h2.entry-title {
   height: auto;
 }
 
-@media screen and (max-width: 455px) {
+@media screen and (max-width: 541px) {
   #site-content img {
-    max-width: 100%;
+    max-width: 75vw;
   }
 }
 
