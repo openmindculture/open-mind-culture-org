@@ -1,0 +1,6 @@
+a:4:{s:8:"template";s:5:"fasto";s:4:"mods";a:17:{i:0;b:0;s:18:"nav_menu_locations";a:1:{s:7:"primary";i:454;}s:18:"custom_css_post_id";i:1304;s:16:"header_textcolor";s:6:"3d4b5e";s:20:"fasto_headings_color";s:7:"#1d4950";s:19:"fasto_primary_color";s:7:"#114791";s:20:"fasto_category_color";s:7:"#96511c";s:16:"fasto_body_color";s:7:"#0f1416";s:21:"fasto_secondary_color";s:7:"#b3e2c2";s:25:"fasto_enable_social_share";s:1:"1";s:31:"fasto_enable_social_share_after";s:1:"0";s:18:"fasto_heading_font";s:7:"raleway";s:15:"fasto_body_font";s:10:"montserrat";s:13:"fasto_twitter";s:19:"http://fraktalisman";s:15:"fasto_lazy_load";s:1:"1";s:16:"fasto_inline_css";s:1:"1";s:24:"fasto_blog_single_layout";s:4:"full";}s:7:"options";a:2:{s:9:"site_icon";s:4:"1184";s:23:"nav_menus_created_posts";a:0:{}}s:6:"wp_css";s:111:".rgg-imagegrid > .rgg-img {
+	border: solid 8px #fff;
+}
+.single .article-single .post-thumb {
+  display: none;
+}";}
