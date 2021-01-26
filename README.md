@@ -15,6 +15,8 @@ npx stylelint "**/*.css" --fix
 
 ## Changelog
 
+- 2021 Theme 'Fasto' used for more readability and easier maintenance
+
 - 2020 Custom styles are finally deployed as a child theme (twentytwenty-child)
 The child theme will be mounted into a local WordPress running on [localhost:8077](http://localhost:8077)
 after running `docker-compose up`.
