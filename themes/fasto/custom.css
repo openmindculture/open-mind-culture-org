@@ -1,0 +1,6 @@
+.rgg-imagegrid > .rgg-img {
+	border: solid 8px #fff;
+}
+.single .article-single .post-thumb {
+  display: none;
+}
