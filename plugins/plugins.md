@@ -19,7 +19,7 @@ Use your HTTP header to improve security of your web site
 
 By Carl Conrad
 
-## IndieWeb	
+## IndieWeb (deactivated)
 
 Interested in connecting your WordPress site to the IndieWeb?
 
@@ -43,13 +43,13 @@ Adds multilingual capability to WordPress
 
 By WP SYNTEX
 
-## Responsive Gallery Grid
+## Responsive Gallery Grid (deactivated)
 
 Converts the default wordpress gallery to a Google+ styled image gallery grid, where the images are scaled to fill the gallery container, while maintaining image aspect ratio's.
 
 By Jules Colle, BDWM
 
-## Semantic-Linkbacks
+## Semantic-Linkbacks (deactivated)
 
 Semantic Linkbacks for WebMentions, Trackbacks and Pingbacks
 
@@ -73,19 +73,19 @@ The highest rated and most complete WordPress performance plugin. Dramatically i
 
 By BoldGrid
 
-## Webmention
+## Webmention (deactivated)
 
 Webmention support for WordPress posts
 
 By Matthias Pfefferle
 
-## wao.io
+## wao.io (deactivated)
 
 wao.io is a free plugin to test loading time and security of your wordpress site.
 
 By Avenga Germany GmbH
 
-## wao.io Cache Control
+## wao.io Cache Control (deactivated)
 
 wao.io Cache Control is a free plugin to clear your WordPress site's cache at wao.io.
 
