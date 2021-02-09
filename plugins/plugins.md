@@ -55,7 +55,7 @@ Semantic Linkbacks for WebMentions, Trackbacks and Pingbacks
 
 By Matthias Pfefferle
 
-## Shariff Wrapper
+## Shariff Wrapper (deactivated)
 
 Shariff provides share buttons that respect the privacy of your visitors and follow the General Data Protection Regulation (GDPR).
 
