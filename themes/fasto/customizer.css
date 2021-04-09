@@ -14,3 +14,7 @@ footer .widget p a {
 	line-height: 1.5;
 	color: white;
 }
+footer .widget p a:link,
+footer .widget p a:visited {
+	text-decoration: underline;
+}
