@@ -18,3 +18,8 @@ footer .widget p a:link,
 footer .widget p a:visited {
 	text-decoration: underline;
 }
+/* harmonize column heights */
+.post-thumb .cover-image {
+	object-fit: cover;
+  aspect-ratio: 16/9;
+}
