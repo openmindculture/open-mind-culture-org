@@ -2,7 +2,6 @@
   "name": "open-mind-culture-org",
   "version": "2.0.0",
   "description": "www.open-mind-culture.org",
-  "dependencies": {},
   "devDependencies": {
     "stylelint": "^13.8.0",
     "stylelint-a11y": "^1.2.3",
