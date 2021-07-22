@@ -4,14 +4,21 @@
 <!-- BEGIN common script code for google analytics and page ads -->
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-105786569-1"></script>
-<script>
+<script type="text/javascript">
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'UA-105786569-1');
+function deferPageAds() {window.setTimeout(loadPageAds, 2000);}
+function loadPageAds() {
+  var element = document.createElement("script");
+  element.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
+  element.setAttribute('data-ad-client', 'ca-pub-6414740850978318');
+  document.body.appendChild(element);
+}
+if (window.addEventListener) {window.addEventListener("load", deferPageAds, false)} else if (window.attachEvent) {window.attachEvent("onload", deferPageAds)} else {window.onload = deferPageAds}
 </script>
-<script data-ad-client="ca-pub-6414740850978318" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- END common script code for google analytics and page ads -->
 
 
