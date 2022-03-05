@@ -1,7 +1,0 @@
-a, .color-1, .widget .color-1, .widget a:hover, .sub-menu .current-menu-item > a, .sub-menu a:hover, .menu > .menu-item > a:hover, .menu .page_item:hover > a, .menu > .menu-item:hover > a, .menu > .current-menu-item > a, .menu > .current-menu-ancestor > a, ul.tags a:hover, .comment-date, .fasto-fallback-menu .current_page_item a, .widget th a, .widget td a {
-    color: #114791;
-}
-
-.category-link {
-    background-color: #96511c;
-}
