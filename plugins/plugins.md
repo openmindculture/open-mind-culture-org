@@ -7,6 +7,8 @@ Supports the older plugins that extend this screen.
 
 By WordPress Contributors
 
+## Matomo Analytics
+
 ## Compress JPEG & PNG images
 
 Speed up your website. Optimize your JPEG and PNG images automatically with TinyPNG.
@@ -61,7 +63,7 @@ Shariff provides share buttons that respect the privacy of your visitors and fol
 
 By Jan-Peter Lambeck & 3UU
 
-## Site Kit by Google
+## Site Kit by Google (removed)
 
 Site Kit is a one-stop solution for WordPress users to use everything Google has to offer to make them successful on the web.
 
