@@ -1,7 +1,15 @@
 [www.open-mind-culture.org](https://www.open-mind-culture.org)
 
-This is a small blog for the main purpose to keep up with WordPress changes,
+This is a personal blog website for the main purpose to keep up with WordPress changes,
 as I have been using WordPress from the very beginning but rarely used it professionally anymore.
+
+## Theme
+
+[fasto-child](https://github.com/openmindculture/wp-fasto-child-theme/tree/main/themes/fasto-child)
+
+## Plugins
+
+[plugins/plugins.md](./plugins/plugins.md)
 
 ## Linter
 
@@ -9,13 +17,9 @@ as I have been using WordPress from the very beginning but rarely used it profes
 npx stylelint "**/*.css" --fix
 ```
 
-## Plugins
-
-[plugins/plugins.md](./plugins/plugins.md)
-
 ## Ingo's Personal Project Roadmap
 
-A unified roadmap for builing apps, themes, and any other kind of extension to existing software, currently focused on [Shopware](https://www.shopware.com/), [WordPress](https://wordpress.org), and [fractal](https://fractal.build).
+A unified roadmap for builing apps, themes, and any other kind of extension to existing software, currently focused on JAMStack/Eleventy (11ty), [Shopware](https://www.shopware.com/), [WordPress](https://wordpress.org), and [fractal](https://fractal.build).
 
 ### Development: Directories and Repositories
 
@@ -26,17 +30,16 @@ A unified roadmap for builing apps, themes, and any other kind of extension to e
      * `customizer.css` (optional style overrides, should be obsolete when using child theme)
      * `patch.functions.php` (optional modifications, should be obsolete when using child theme)
      * `plugins.md` (list of required plugins)
-     * carbon-footprint-api ([wp-carbon-footprint-api](https://github.com/openmindculture/wp-carbon-footprint-api))
+     * [wp-incompatibility-status](https://github.com/openmindculture/wp-incompatibility-status)
    * `themes`
      * [fasto-child](https://github.com/openmindculture/wp-fasto-child-theme/tree/main/themes/fasto-child) ([wp-fasto-child-theme](https://github.com/openmindculture/wp-fasto-child-theme))
    * `wp-root` (optional DevOps settings for performance and security to deploy to WordPress root folder on a shared host)
- * [fractal-shopware-demo](https://github.com/openmindculture/fractal-shopware-demo)
-   * (similar themes and plugins for Shopware 6, NOT for fractal, despite the name)
- * [fractal-build-example](https://github.com/openmindculture/fractal-build-example)
-   * reusable web components organized and tested in a design system
  * [bookstack-reading-list-app](https://github.com/openmindculture/bookstack-reading-list-app) is a project using JavaScript-based full-stack web development with Node.js, Preact, and TypeScript.
 
 ## Changelog
+
+- 2024
+  - update README
 
 - 2022
   - [x] common roadmap for WordPress + Shopware development
