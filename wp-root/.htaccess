@@ -1,3 +1,16 @@
+# BEGIN Custom Redirects after SEO cleanup 2025-10
+Redirect 301 /tag/culture/ /category/culture/
+Redirect 301 /tag/fashion/ /category/art-fashion-clothing-mode-lifestyle/
+Redirect 301 /tag/travel/ /category/travel-reisen/
+Redirect 301 /tag/technology/ /category/technology/
+Redirect 301 /tag/openmind-de/ /
+Redirect 301 /en/tag/culture-en/ /en/category/culture/
+Redirect 301 /en/tag/fashion-en/ /en/category/fashion/
+Redirect 301 /en/tag/travel-en/ /en/category/travel/
+Redirect 301 /en/tag/technology-en/ /en/category/technology/
+Redirect 301 /en/tag/openmind/ /en/
+# END Custom Redirects
+
 # BEGIN W3TC Browser Cache
 <IfModule mod_mime.c>
 	AddType text/css .css
