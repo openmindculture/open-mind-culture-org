@@ -9,6 +9,19 @@ Redirect 301 /en/tag/fashion-en/ /en/category/fashion/
 Redirect 301 /en/tag/travel-en/ /en/category/travel/
 Redirect 301 /en/tag/technology-en/ /en/category/technology/
 Redirect 301 /en/tag/openmind/ /en/
+Redirect 301 /1932/circular-fashion-second-hand-ohne-mischgewebe-nachhaltige-maennermode-umweltfreundliche-unisex-fashion/ /72/androgyne-mode-trends/
+Redirect 301 /243/kaufen-helfen-bildung-spenden/ /305/ausgediente-laptops-der-bildung-spenden/
+Redirect 301 /en/2418/sustainable-web-development-vs-wordpress/ /en/1512/sustainable-web-development/
+Redirect 301 /1477/werbefrei-einerlei-warum-in-diesem-blog-moeglicherweise-werbung-erscheint/ /1504/nachhaltige-webentwicklung-oeko-fussabdruck/
+Redirect 301 /2417/nachhaltige-web-entwicklung-vs-wordpress/ /1504/nachhaltige-webentwicklung-oeko-fussabdruck/
+Redirect 301 /3674/nachhaltige-druckereien-und-webhoster/ /1504/nachhaltige-webentwicklung-oeko-fussabdruck/
+Redirect 301 /3674/nachhaltige-werbepartner-innen/ /1504/nachhaltige-webentwicklung-oeko-fussabdruck/
+Redirect 301 /3674/nachhaltige-werbepartner-innen/feed/ /1504/nachhaltige-webentwicklung-oeko-fussabdruck/feed/
+Redirect 301 /2380/video-content-creation-setup-und-erste-erfahrungen/ /4373/fediverse-indieweb-alternativen-meta-broligarchie/
+Redirect 301 /4400/ungewisse-blicke-brutalismus-kulturkampf-kino-langeweile-uncertain-regard/ /3935/sehenswerte-filme-fruehling-2024-und-frueher/
+Redirect 301 /2680/kontaktformular-test/ /439/impressum/
+Redirect 301 /158/open-mind-artists-orange-peeler/ /
+
 # END Custom Redirects
 
 # BEGIN W3TC Browser Cache
