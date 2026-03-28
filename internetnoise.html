@@ -129,9 +129,9 @@
 
 
 			var wordsContainer = document.getElementById('wortwolke');
-			var paragraph = document.createElement('p');
-			paragraph.innerHTML = words.join(' ');
-			wordsContainer.appendChild(paragraph);
+			var paradigm = document.createElement('span');
+			paradigm.innerHTML = words.join(' ');
+			wordsContainer.appendChild(paradigm);
 			var url = '';
 			var rand = Math.random();
 
@@ -139,7 +139,7 @@
 				url = seturl;
 			} else if (rand < 0.33) {
 				url = 'https://uk.pinterest.com/search/pins/?q=' + encodeURIComponent(words.join(' '));
-			} else if (rand < 0.55) {
+			} else if (rand < 0.44) {
 				url = 'https://www.google.com/search?q=' + encodeURIComponent(words.join(' ')) + '&tbm=isch';
 			} else if (rand < 0.66) {
 				url = 'https://open.spotify.com/search/' + encodeURIComponent(words.join(' '));
@@ -153,7 +153,8 @@
 				linkElement.setAttribute('href', url);
 				linkElement.setAttribute('target', '_blank');
 				linkElement.innerHTML = url;
-				linksContainer.appendChild(linkElement);
+				var wrappeer = document.createElement('div');
+				linksContainer.appendChild(wrappeer);
 				return;
 			}
 
