@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="robots" content="noindex, nofollow">
 	<style>
-		a, a:link, a:visited, a:hover, a:active, a:focus {
+		a, a:link, a:visited, a:hover, a:active, a:focus, input[type=text] {
 			display: inline-block;
 			padding: 1rem;
 			margin: 0 1rem 1rem 0;
@@ -19,27 +19,32 @@
 		a.deprecated, a.deprecated:link, a.deprecated:visited {
 			color: silver;
 		}
+		input[type=text] {
+			width: calc(100% - 4rem);
+			font-size: 110%;
+		}
 	</style>
 </head>
 <body>
+<form action="https://www.ecosia.org/search?method=index&" type="GET">
+  <input type="text" name="q" placeholder="ecosia search" autofocus="autofocus">
+</form>
+<br>
 <a href="https://keep.google.com/">keep</a>
 <a href="https://calendar.google.com/calendar/u/0/r/week">calendar</a>
 <a href="https://dict.leo.org/" title="dict.leo.org">leo</a>
 <a href="https://www.linguee.com/">linguee</a>
 <a href="https://docs.google.com/spreadsheets/u/0/">sheets</a>
 <a href="https://translate.google.com">google translate</a>
-<a class="deprecated" href="https://www.deepl.com/">deepL</a>
 <a href="https://voyant-tools.org/" title="voyant-tools">voyant</a>
 <a href="https://www.zerogpt.com/">zeroGPT</a>
 <a href="https://caniuse.com/">caniuse</a>
 <a href="https://css-tricks.com">css-tricks</a>
 <a href="https://www.ecosia.org/">ecosia</a>
 <a href="https://developer.mozilla.org/en-US/">mdn</a>
-<a href="https://stackoverflow.com/">stackoverflow</a>
 <a href="https://claude.ai/new">claude</a>
 <a href="https://en.wikipedia.org/wiki/Main_Page">wikipedia</a>
 <a href="https://developer.wordpress.org/">dev wp</a>
-<a class="deprecated" href="https://codex.wordpress.org/Main_Page">wp codex</a>
 <a href="https://wortliga.de/textanalyse/" title="Wortliga Textanalyse">wortliga</a>
 <a href="https://synonyme.woxikon.de/" title="Synonyme">woxikon</a>
 <a href="https://www.grammarly.com/">grammarly</a>
@@ -48,17 +53,10 @@
 <a href="https://lyricstranslate.com/">lyricstranslate</a>
 <a href="https://www.urbandictionary.com/" title="urban dictionary">urban</a>
 <a href="https://www.whosampled.com/">whosampled</a>
-<a class="deprecated" href="https://www.ecosia.org/ai-search/">ecosia ai</a>
+<a href="https://www.ecosia.org/ai-search/">ecosia ai</a>
 <a href="https://thaura.ai/">thaura</a>
 <a href="https://chat.mistral.ai/chat" title="le chat mistral AI">mistral</a>
-<a class="deprecated" href="https://www.perplexity.ai/">perplexity</a>
-<a class="deprecated" href="https://notebooklm.google.com/" title="google notebook llm">notebook lm</a>
-<a href="https://gemini.google.com/app" title="gemini google app">gemini</a>
-<a class="deprecated" href="https://github.com/copilot">github copilot</a>
-<a class="deprecated" href="https://developer.shopware.com/chat.html" title="shopware AI copilot">shopware copilot</a>
 <a href="https://repomix.com/">repomix</a>
-<a class="deprecated" href="https://chatgpt.com/" title="shetty">chatGPT</a>
-<a class="deprecated" href="https://quillbot.com/ai-content-detector">quillbot ai-content-detector</a>
 <a href="https://quillbot.com/summarize" title="quillbot summarize">quill</a>
 <a href="https://www.soscisurvey.de/tools/view-chars.php">view-chars</a>
 <a href="https://theyseeyourphotos.com/" title="they see your photos via Google vision API">theyseeyourphotos</a>
@@ -77,8 +75,6 @@
 <a href="https://validator.schema.org/">validator.schema.org</a>
 <a href="https://validator.w3.org/">w3 validator</a>
 <a href="https://securityheaders.com/">probely security headers</a>
-<a class="deprecated" href="https://ahrefs.com/de/website-authority-checker"
-   title="website authority checker">ahrefs</a>
 <a href="https://webhook.site/">webhook.site</a>   
 <a href="https://live.browserstack.com/dashboard">browserstack</a>
 <a href="https://youtrack.jetbrains.com/issues" title="JetBrains YouTrack issues">youtrack</a>
@@ -86,7 +82,6 @@
 <a href="https://www.freelance.de/mail/index.php" title="freelance.de/mail inbox">freelance.de</a>
 <a href="https://app.fratch.io/en/projects/" title="freelance.de/mail inbox">fratch</a>
 <a href="https://germantechjobs.de/events">germantechjobs/events</a>
-<a class="deprecated" href="https://app.9am.works/jobs-inbox?tab=all" title="9am.works jobs-inbox">9am</a>
 <a href="https://devjobs.de/jobs/search" title="devjobs.de/jobs/search">devjobs</a>
 <a href="https://www.linkedin.com/jobs/" title="linkedin.com/jobs">linkedin</a>
 <a href="https://www.solcom.de/de/projektportal/projektangebote" title="solcom.de/de/projektportal/projektangebote">solcom</a>
@@ -101,25 +96,15 @@
 <a href="https://trello.com/">trello</a>
 <a href="https://codepen.io/">codepen</a>
 <a href="https://creativemornings.com/cities/ber" title="Creative Mornings Berlin">creativemornings</a>
-<a href="https://berlin.impacthub.net/">impact hub berlin</a>
-<a href="https://impact-hub-berlin.cobot.me/membership/dashboard">impact-hub-berlin.cobot.me</a>
-<a href="https://impact-hub-berlin.cobot.me/time_pass_purchases/new">time_pass_purchases/new</a>
-<a href="https://app.slack.com/client/T06G6UFBQ">slack</a>
+<a href="https://app.slack.com/">slack</a>
 <a href="https://steadyhq.com/">steadyhq</a>
 <a href="https://www.patreon.com/ingosteinke">patreon</a>
 <a href="https://www.kleinanzeigen.de/">kleinanzeigen</a>
 <a href="https://www.willhaben.at/">willhaben</a>
-<a class="deprecated" href="https://www.vinted.de/">vinted</a>
-<a class="deprecated" href="https://ui.awin.com/">ui.awin.com</a>
-<a class="deprecated" href="https://ads.google.com/aw/">google ads</a>
-<a class="deprecated" href="https://ui.ads.microsoft.com/">microsoft ads</a>
 <a href="https://www.bing.com/webmasters/">bing webmaster tools</a>
 <a href="https://search.google.com/search-console/">google search console</a>
 <a href="https://www.ingo-steinke.de/matomo/">isd.matomo</a>
 <a href="https://matomo.org/">matomo.org</a>
-<a class="deprecated" href="https://answerthepublic.com/">answerthepublic</a>
-<a class="deprecated" href="https://app.neilpatel.com/de/dashboard" title="Neil Patel App">ubersuggest</a>
-<a class="deprecated" href="https://www.seobility.net/">seobility</a>
 <a href="https://metrics.tools/">metrics.tools</a>
 <a href="https://www.micheldebree.nl/retropixels/">retropixels</a>
 <a href="https://creator.lottiefiles.com/">lottiefiles creator</a>
@@ -199,11 +184,9 @@
 <a href="https://hackernoon.com/">hackernoon</a>
 <a href="https://dev.to/">dev</a>
 <a href="https://wearedevelopers.com/">wearedevelopers</a>
-<a class="deprecated" href="https://coderlegion.com/">coderlegion</a>
 <a href="https://www.tumblr.com/">tumblr</a>
 <a href="https://flickr.com/">flickr</a>
 <a href="https://uk.pinterest.com/">pinterest</a>
-<a class="deprecated" href="https://www.instagram.com/">instagram</a>
 <a href="https://www.open-mind-culture.org/internetnoise.html">internetnoise</a>
 <a href="https://www.open-mind-culture.org/">open mind culture</a>
 <a href="https://www.open-mind-culture.org/detect.php">detect</a>
@@ -217,5 +200,33 @@
 <a href="https://open.spotify.com/" title="open spotify web player">spotify</a>
 <a href="https://www.qobuz.com/">qobus</a>
 <a href="https://www.zoom.com/">zoom</a>
+<br>
+@deprecated
+<br>
+	<a class="deprecated" href="https://www.deepl.com/">deepL</a>
+	<a class="deprecated" href="https://stackoverflow.com/">stackoverflow</a>
+	<a class="deprecated" href="https://codex.wordpress.org/Main_Page">wp codex</a>
+	<a class="deprecated" href="https://www.perplexity.ai/">perplexity</a>
+	<a class="deprecated" href="https://gemini.google.com/app" title="gemini google app">gemini</a>
+	<a class="deprecated" href="https://notebooklm.google.com/" title="google notebook llm">notebook lm</a>
+	<a class="deprecated" href="https://github.com/copilot">github copilot</a>
+	<a class="deprecated" href="https://developer.shopware.com/chat.html" title="shopware AI copilot">shopware copilot</a>
+	<a class="deprecated" href="https://chatgpt.com/" title="shetty">chatGPT</a>
+	<a class="deprecated" href="https://quillbot.com/ai-content-detector">quillbot ai-content-detector</a>
+	<a class="deprecated" href="https://www.vinted.de/">vinted</a>
+	<a class="deprecated" href="https://ui.awin.com/">ui.awin.com</a>
+	<a class="deprecated" href="https://ads.google.com/aw/">google ads</a>
+	<a class="deprecated" href="https://ui.ads.microsoft.com/">microsoft ads</a>
+	<a class="deprecated" href="https://answerthepublic.com/">answerthepublic</a>
+	<a class="deprecated" href="https://app.neilpatel.com/de/dashboard" title="Neil Patel App">ubersuggest</a>
+	<a class="deprecated" href="https://app.9am.works/jobs-inbox?tab=all" title="9am.works jobs-inbox">9am</a>
+	<a class="deprecated" href="https://ahrefs.com/de/website-authority-checker"
+		title="website authority checker">ahrefs</a>
+	<a class="deprecated" href="https://www.seobility.net/">seobility</a>
+	<a class="deprecated" href="https://coderlegion.com/">coderlegion</a>
+	<a class="deprecated" href="https://berlin.impacthub.net/">impact hub berlin</a>
+	<a class="deprecated" href="https://impact-hub-berlin.cobot.me/membership/dashboard">impact-hub-berlin.cobot.me</a>
+	<a class="deprecated" href="https://impact-hub-berlin.cobot.me/time_pass_purchases/new">time_pass_purchases/new</a>
+	<a class="deprecated" href="https://www.instagram.com/">instagram</a>
 </body>
 </html>
